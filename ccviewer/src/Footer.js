@@ -1,24 +1,23 @@
 import React from 'react';
-import FadeButton from './FadeButton';
+import Collapse from './Collapse';
 
 const divStyle = {
   background: '#4A6572',
   borderTop: '1px solid black',
-  textAlign: 'center',
-  padding: '15px',
+  textAlign: 'right',
   position: 'static',
-  height: '50px',
+  height: '40px',
   width: '100%',
   bottom: '0',
   color: 'white',
-  marginTop: '20px'
+  marginTop: '28px'
 };
 
 export default class Footer extends React.Component {
   render() {
     return (
       <div style={divStyle}>
-        <FadeButton />
+        <Collapse />
       </div>
     )
   }
