@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import FadeButton from './FadeButton';
 import Footer from './Footer';
 import Banner from './Banner';
+import ChartDataFetch from './ChartDataFetch';
 
 class App extends Component {
   constructor(props) {
@@ -27,6 +28,7 @@ class App extends Component {
         <NavBar name={this.state.coin} onChange={this.setCrypto} />
         <Banner name={this.state.coin} />
         <PriceContainer name={this.state.coin} />
+        <ChartDataFetch />
         <Footer />
       </div>
     );
