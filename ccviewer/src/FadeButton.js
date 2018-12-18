@@ -1,6 +1,14 @@
 import React from 'react';
 import { Button, Fade } from 'reactstrap';
 
+const buttonStyle = {
+  background: '#F9AA33',
+};
+
+const fadeStyle = {
+  color: 'red'
+}
+
 export default class FadeButton extends React.Component {
     constructor(props) {
         super(props);
@@ -17,8 +25,8 @@ export default class FadeButton extends React.Component {
       }
         return (
             <div>
-                <Button color="primary" onClick={this.toggle} >{text}</Button>
-                <Fade in={this.state.fadeIn} tag="h5" className="mt-3">
+                <Button style={buttonStyle} onClick={this.toggle} >{text}</Button>
+                <Fade style={fadeStyle} in={this.state.fadeIn} tag="h5" className="mt-3">
                     Don't worry about browser miners :^]
                 </Fade>
             </div>

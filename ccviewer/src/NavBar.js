@@ -12,6 +12,16 @@ import {
   DropdownMenu,
   DropdownItem } from 'reactstrap';
 
+  const navBarStyle = {
+    background: '#344955'
+  };
+
+  const h1Style = {
+    margin: '0 0 0 10px',
+    fontFamily: 'Arial Black',
+    color: 'white'
+  };
+
   export default class NavBar extends React.Component {
     constructor(props) {
       super(props);
@@ -29,8 +39,8 @@ import {
     render() {
       return (
         <div>
-          <Navbar color='#3462ae' light expand='md'>
-            <NavbarBrand href='/'>CryptoCoin Viewer</NavbarBrand>
+          <Navbar light expand='md' fixedTop style={navBarStyle}>
+            <NavbarBrand href='/'><h1 style={h1Style}>CryptoCoin Viewer</h1></NavbarBrand>
               <Nav className='ml-auto' navbar>
                 <select id='coin' onChange={this.handleChange}>
                   <option value='BTC'>

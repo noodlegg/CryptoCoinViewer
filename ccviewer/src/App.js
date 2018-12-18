@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import PriceContainer from './PriceContainer';
 import NavBar from './NavBar';
-import FadeButton from './FadeButton'
+import FadeButton from './FadeButton';
+import Footer from './Footer';
 
 class App extends Component {
   constructor(props) {
@@ -24,7 +25,7 @@ class App extends Component {
       <div className="App">
         <NavBar name={this.state.coin} onChange={this.setCrypto} />
         <PriceContainer name={this.state.coin} />
-        <FadeButton />
+        <Footer />
       </div>
     );
   }
