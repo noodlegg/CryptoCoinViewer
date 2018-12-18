@@ -1,4 +1,6 @@
 import React from 'react';
+import './PriceDisplay.css';
+var NumberFormat = require('react-number-format');
 
 export class PriceDisplay extends React.Component {
   render() {
@@ -6,8 +8,14 @@ export class PriceDisplay extends React.Component {
     let value = this.props.value;
     console.log(this.props);
     return (
-      <div>
-        <h2>Currency is {key} with value {value}</h2>
+      <div id='priceRow'>
+        <h2>
+          {key} <NumberFormat // shows the value in a formatted way
+            value={value}
+            displayType={'text'}
+            decimalprecision={2}
+            thousandSeparator={true} />
+        </h2>
       </div>
     )
   }

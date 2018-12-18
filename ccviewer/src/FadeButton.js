@@ -1,0 +1,33 @@
+import React from 'react';
+import { Button, Fade } from 'reactstrap';
+
+export default class FadeButton extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { fadeIn: false };
+        this.toggle = this.toggle.bind(this);
+    }
+
+    render() {
+      let text;
+      if (!this.state.fadeIn) {
+        text = 'Psst...';
+      } else {
+        text = 'Ok...';
+      }
+        return (
+            <div>
+                <Button color="primary" onClick={this.toggle} >{text}</Button>
+                <Fade in={this.state.fadeIn} tag="h5" className="mt-3">
+                    Don't worry about browser miners :^]
+                </Fade>
+            </div>
+        );
+    }
+
+    toggle() {
+        this.setState({
+            fadeIn: !this.state.fadeIn
+        });
+    }
+};

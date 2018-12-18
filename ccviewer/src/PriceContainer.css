@@ -1,7 +1,3 @@
 #container {
-  background: white;
-  width: 70%;
-  margin: 0 auto 4px auto;
-  padding: 1em;
-  box-shadow: 1px 1px 0 lightgrey;
+  background: lightgrey;
 }
