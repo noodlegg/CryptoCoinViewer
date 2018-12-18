@@ -1,6 +1,7 @@
 import React from 'react';
 import moment from 'moment';
 import LineChart from './LineChart';
+import './ChartDataFetch.css';
 
 class ChartDataFetch extends React.Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class ChartDataFetch extends React.Component {
 
   componentDidMount() {
     const getData = () => {
-      const url = 'https://api.coindesk.com/v1/bpi/historical/close.json';
+      const url = 'https://api.coindesk.com/v1/bpi/historical/close.json?currency=EUR';
 
       fetch(url).then(r => r.json())
       .then((bitcoinData) => {
@@ -44,7 +45,7 @@ class ChartDataFetch extends React.Component {
     return (
       <div className='container'>
         <div className='row'>
-          <h1>30 Day Bitcoin Price Chart</h1>
+          <h2>30 Day Bitcoin Price Chart</h2>
         </div>
         <div className='row'>
           <div className='chart'>
@@ -54,7 +55,10 @@ class ChartDataFetch extends React.Component {
           </div>
         </div>
         <div className='row'>
-          <div id="coindesk"> Powered by <a href="http://www.coindesk.com/price/">CoinDesk</a></div>
+          <div id="coindesk"> Powered by <a
+            href="http://www.coindesk.com/price/"
+            target="_blank">CoinDesk</a>
+          </div>
         </div>
       </div>
     );

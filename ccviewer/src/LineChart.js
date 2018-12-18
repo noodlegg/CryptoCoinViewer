@@ -1,4 +1,5 @@
 import React from 'react';
+import './LineChart.css';
 
 class LineChart extends React.Component {
   constructor(props) {
@@ -81,10 +82,10 @@ class LineChart extends React.Component {
       <g className="linechart_label">
         {/* Y AXIS LABELS */}
         <text transform={`translate(${yLabelSize/2}, 20)`} textAnchor="middle">
-          {this.getY().max.toLocaleString('us-EN',{ style: 'currency', currency: 'USD' })}
+          {this.getY().max.toLocaleString('us-EN',{ style: 'currency', currency: 'EUR' })}
         </text>
         <text transform={`translate(${yLabelSize/2}, ${svgHeight - xLabelSize - padding})`} textAnchor="middle">
-          {this.getY().min.toLocaleString('us-EN',{ style: 'currency', currency: 'USD' })}
+          {this.getY().min.toLocaleString('us-EN',{ style: 'currency', currency: 'EUR' })}
         </text>
         {/* X AXIS LABELS */}
         <text transform={`translate(${yLabelSize}, ${svgHeight})`} textAnchor="start">
@@ -117,7 +118,7 @@ LineChart.defaultProps = {
   data: [],
   color: '#2196F3',
   pointRadius: 5,
-  svgHeight: 300,
+  svgHeight: 400,
   svgWidth: 900,
   xLabelSize: 20,
   yLabelSize: 80

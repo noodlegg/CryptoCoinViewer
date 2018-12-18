@@ -6,8 +6,8 @@ const buttonStyle = {
 };
 
 const fadeStyle = {
-  color: 'red'
-}
+  color: 'red',
+};
 
 export default class FadeButton extends React.Component {
     constructor(props) {
@@ -26,7 +26,7 @@ export default class FadeButton extends React.Component {
         return (
             <div>
                 <Button style={buttonStyle} onClick={this.toggle} >{text}</Button>
-                <Fade style={fadeStyle} in={this.state.fadeIn} tag="h5" className="mt-3">
+                <Fade style={fadeStyle} in={this.state.fadeIn} tag="h6" className="mt-3">
                     Don't worry about browser miners :^]
                 </Fade>
             </div>

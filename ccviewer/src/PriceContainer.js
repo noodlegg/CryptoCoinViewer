@@ -10,13 +10,13 @@ export class PriceContainer extends React.Component {
     super(props);
     this.state = {
       price: 0,
-      volume: 0
     }
   }
 
   getData() {
     const name = this.props.name;
-    const url = 'https://min-api.cryptocompare.com/data/price?fsym='+name+'&tsyms=EUR,USD,JPY,CNY';
+    const url = 'https://min-api.cryptocompare.com/data/price?fsym='+ name
+    + '&tsyms=EUR,USD,JPY,GBP,CHF,CNY,CAD,KRW,HKD,AUD';
     console.log(name);
 
     fetch(url).then(r => r.json())

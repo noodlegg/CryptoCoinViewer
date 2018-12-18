@@ -10,7 +10,8 @@ const divStyle = {
   height: '50px',
   width: '100%',
   bottom: '0',
-  color: 'white'
+  color: 'white',
+  marginTop: '20px'
 };
 
 export default class Footer extends React.Component {
