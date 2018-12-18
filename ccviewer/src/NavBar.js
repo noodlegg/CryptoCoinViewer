@@ -58,15 +58,6 @@ import {
                   <option value='XLM'>
                     Stellar
                   </option>
-                  <option value='LTC'>
-                    Litecoin
-                  </option>
-                  <option value='BCH'>
-                    Bitcoin Cash
-                  </option>
-                  <option value='XMR'>
-                    Monero
-                  </option>
                 </select>
               </Nav>
           </Navbar>

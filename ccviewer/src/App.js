@@ -4,6 +4,7 @@ import PriceContainer from './PriceContainer';
 import NavBar from './NavBar';
 import FadeButton from './FadeButton';
 import Footer from './Footer';
+import Banner from './Banner';
 
 class App extends Component {
   constructor(props) {
@@ -24,6 +25,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar name={this.state.coin} onChange={this.setCrypto} />
+        <Banner name={this.state.coin} />
         <PriceContainer name={this.state.coin} />
         <Footer />
       </div>
