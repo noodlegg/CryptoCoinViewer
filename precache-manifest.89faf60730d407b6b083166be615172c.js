@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/CryptoCoinViewer/static/media/btc_banner.d5084f7c.png"
   },
   {
-    "revision": "d8ab4df3c0d19c472c67",
-    "url": "/CryptoCoinViewer/static/css/main.80a78526.chunk.css"
+    "revision": "35a2161ce77799167de0",
+    "url": "/CryptoCoinViewer/static/css/main.e4f2179f.chunk.css"
   },
   {
     "revision": "6ad735013470d333265464443bed4aef",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/CryptoCoinViewer/static/js/runtime~main.f9c939ac.js"
   },
   {
-    "revision": "d8ab4df3c0d19c472c67",
-    "url": "/CryptoCoinViewer/static/js/main.d8ab4df3.chunk.js"
+    "revision": "35a2161ce77799167de0",
+    "url": "/CryptoCoinViewer/static/js/main.35a2161c.chunk.js"
   },
   {
     "revision": "e6a2ba144f32aa7e67aead65e0fe82d2",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/CryptoCoinViewer/static/css/1.35eeef3b.chunk.css"
   },
   {
-    "revision": "56cf1c7e30c1ba7180393c7bc0e14627",
+    "revision": "4b0d30eb7a8e21fa6378aa87277fcb6c",
     "url": "/CryptoCoinViewer/index.html"
   }
 ];

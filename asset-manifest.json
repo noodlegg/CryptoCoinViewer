@@ -1,7 +1,7 @@
 {
-  "main.css": "/CryptoCoinViewer/static/css/main.80a78526.chunk.css",
-  "main.js": "/CryptoCoinViewer/static/js/main.d8ab4df3.chunk.js",
-  "main.js.map": "/CryptoCoinViewer/static/js/main.d8ab4df3.chunk.js.map",
+  "main.css": "/CryptoCoinViewer/static/css/main.e4f2179f.chunk.css",
+  "main.js": "/CryptoCoinViewer/static/js/main.35a2161c.chunk.js",
+  "main.js.map": "/CryptoCoinViewer/static/js/main.35a2161c.chunk.js.map",
   "static/css/1.35eeef3b.chunk.css": "/CryptoCoinViewer/static/css/1.35eeef3b.chunk.css",
   "static/js/1.97aaed95.chunk.js": "/CryptoCoinViewer/static/js/1.97aaed95.chunk.js",
   "static/js/1.97aaed95.chunk.js.map": "/CryptoCoinViewer/static/js/1.97aaed95.chunk.js.map",
@@ -12,9 +12,9 @@
   "static/media/xrp_banner.png": "/CryptoCoinViewer/static/media/xrp_banner.c82f1e4b.png",
   "static/media/xlm_banner.png": "/CryptoCoinViewer/static/media/xlm_banner.6ad73501.png",
   "static/media/eth_banner.png": "/CryptoCoinViewer/static/media/eth_banner.e6a2ba14.png",
+  "static/css/main.e4f2179f.chunk.css.map": "/CryptoCoinViewer/static/css/main.e4f2179f.chunk.css.map",
   "static/css/1.35eeef3b.chunk.css.map": "/CryptoCoinViewer/static/css/1.35eeef3b.chunk.css.map",
-  "static/css/main.80a78526.chunk.css.map": "/CryptoCoinViewer/static/css/main.80a78526.chunk.css.map",
   "index.html": "/CryptoCoinViewer/index.html",
-  "precache-manifest.19b8df060c5f3c77b11bfdca8bd8c1d2.js": "/CryptoCoinViewer/precache-manifest.19b8df060c5f3c77b11bfdca8bd8c1d2.js",
+  "precache-manifest.89faf60730d407b6b083166be615172c.js": "/CryptoCoinViewer/precache-manifest.89faf60730d407b6b083166be615172c.js",
   "service-worker.js": "/CryptoCoinViewer/service-worker.js"
 }

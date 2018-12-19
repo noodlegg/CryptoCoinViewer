@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/CryptoCoinViewer/precache-manifest.19b8df060c5f3c77b11bfdca8bd8c1d2.js"
+  "/CryptoCoinViewer/precache-manifest.89faf60730d407b6b083166be615172c.js"
 );
 
 workbox.clientsClaim();
