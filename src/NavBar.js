@@ -32,7 +32,7 @@ import {
       return (
         <div>
           <Navbar light expand='md' fixedTop style={navBarStyle}>
-            <NavbarBrand href='/'><h1 style={h1Style}>CryptoCoin Viewer</h1></NavbarBrand>
+            <NavbarBrand href='/.App'><h1 style={h1Style}>CryptoCoin Viewer</h1></NavbarBrand>
               <Nav className='ml-auto' navbar>
                 <select id='coin' onChange={this.handleChange}>
                   <option value='BTC'>
