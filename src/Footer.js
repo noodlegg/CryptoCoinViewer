@@ -5,12 +5,13 @@ const divStyle = {
   background: '#4A6572',
   borderTop: '1px solid black',
   textAlign: 'right',
-  position: 'static',
+  position: 'relative',
   height: '40px',
-  width: '100%',
+  marginTop: ' 28px',
+  right: ' 0',
+  left: ' 0',
   bottom: '0',
-  color: 'white',
-  marginTop: '28px'
+  color: 'white'
 };
 
 export default class Footer extends React.Component {

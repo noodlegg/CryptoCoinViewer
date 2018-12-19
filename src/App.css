@@ -4,3 +4,8 @@ header {
   position: fixed;
   width: 100%
 }
+
+.App {
+  min-height: 100%;
+  position: relative;
+}
