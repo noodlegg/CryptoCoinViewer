@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Button, CardBody, Card } from 'reactstrap';
+import { Collapse, Button, Card } from 'reactstrap';
 
 const buttonStyle = {
   background: '#F9AA33',

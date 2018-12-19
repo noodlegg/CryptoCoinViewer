@@ -57,6 +57,7 @@ class ChartDataFetch extends React.Component {
         <div className='row'>
           <div id="coindesk"> Powered by <a
             href="http://www.coindesk.com/price/"
+            rel="noopener noreferrer"
             target="_blank">CoinDesk</a>
           </div>
         </div>

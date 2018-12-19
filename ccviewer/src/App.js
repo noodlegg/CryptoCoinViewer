@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import PriceContainer from './PriceContainer';
 import NavBar from './NavBar';
-import FadeButton from './FadeButton';
 import Footer from './Footer';
 import Banner from './Banner';
 import ChartDataFetch from './ChartDataFetch';

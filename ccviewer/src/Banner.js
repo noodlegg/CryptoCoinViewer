@@ -29,7 +29,8 @@ export default class Banner extends React.Component {
       <div>
         <img
           src={imgSrc}
-          style={imgStyle} />
+          style={imgStyle}
+          alt='coin banner' />
       </div>
     )
   }

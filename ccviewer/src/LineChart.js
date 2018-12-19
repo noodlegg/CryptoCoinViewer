@@ -2,10 +2,6 @@ import React from 'react';
 import './LineChart.css';
 
 class LineChart extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   getX() {
     const {data} = this.props;
     return {
@@ -32,7 +28,7 @@ class LineChart extends React.Component {
     }
   // Build SVG path
   makePath() {
-    const {data, color} = this.props;
+    const {data} = this.props;
     let pathD = "M " + this.getSvgX(data[0].x) + " " + this.getSvgY(data[0].y) + " ";
     pathD += data.map((point, i) => {
       return "L " + this.getSvgX(point.x) + " " + this.getSvgY(point.y) + " ";
