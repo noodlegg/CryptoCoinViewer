@@ -1,6 +1,6 @@
 #priceRow {
-  width: auto;
-  min-width: 17%;
+  background: white;
+  width: 17%;
   margin: 10px auto 10px 50px;
   padding: 1em;
   box-shadow: 1px 1px 0 lightgrey;
