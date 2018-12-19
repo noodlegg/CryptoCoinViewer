@@ -32,7 +32,11 @@ import {
       return (
         <div>
           <Navbar light expand='md' fixedTop style={navBarStyle}>
+<<<<<<< HEAD
             <NavbarBrand><h1 style={h1Style}>CryptoCoin Viewer</h1></NavbarBrand>
+=======
+            <NavbarBrand href='/'><h1 style={h1Style}>CryptoCoin Viewer</h1></NavbarBrand>
+>>>>>>> parent of 99b5af8... Fixed Navbar reference
               <Nav className='ml-auto' navbar>
                 <select id='coin' onChange={this.handleChange}>
                   <option value='BTC'>
